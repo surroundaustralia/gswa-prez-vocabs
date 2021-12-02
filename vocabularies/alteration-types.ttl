@@ -1,0 +1,275 @@
+@prefix : <https://linked.data.gov.au/def/warox-alteration-types/> .
+@prefix cs: <https://linked.data.gov.au/def/warox-alteration-types> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sdo: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cs: 
+    a skos:ConceptScheme ;
+    dcterms:creator <https://linked.data.gov.au/org/gswa> ;
+    dcterms:created "2021-09-26"^^xsd:date ;
+    dcterms:modified "2021-09-29"^^xsd:date ;
+    skos:definition "This vocabulary give Alteration Type concepts, listed in the Geologicla Survey of Western Australia's WAROX database."@en ;
+    skos:prefLabel "WAROX Alteration Type"@en ;
+    dcterms:provenance "This vocabulary was built on an extract of the WAROX system's lookup table"@en ;
+    skos:hasTopConcept     
+        :albitic ,
+        :alkali-metasomatism ,
+        :argillic ,
+        :carbonate ,
+        :chloritic ,
+        :deuteric ,
+        :fenitization ,
+        :fluorite-and-topaz ,
+        :greisen ,
+        :hematitic ,
+        :jasperoid ,
+        :listvenitization ,
+        :phyllic-qsp ,
+        :potassic ,
+        :propylitic ,
+        :pyritic ,
+        :rodingitization ,
+        :sericitic ,
+        :serpentinization ,
+        :silicification ,
+        :skarn ,
+        :tourmalinization ,
+        :zeolitic ;        
+.
+
+<https://linked.data.gov.au/org/gswa>
+    a sdo:Organization ;
+    sdo:name "Geological Survey of Western Australia" ;
+    sdo:url "http://dmp.wa.gov.au/Geological-Survey/Geological-Survey-262.aspx"^^xsd:anyURI ;
+.
+
+:albitic
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "albitic"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:alkali-metasomatism
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "alkali metasomatism"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:argillic
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "argillic"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:argillic-advanced
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "argillic - advanced"@en ;
+    skos:broader :argillic ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:argillic-intermediate
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "argillic - intermediate"@en ;
+    skos:broader :argillic ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:carbonate
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "carbonate"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:chloritic
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "chloritic"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:deuteric
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "deuteric"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:fenitization
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fenitization"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:fluorite-and-topaz
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fluorite and topaz"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:greisen
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "greisen"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:hematitic
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "hematitic"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:jasperoid
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "jasperoid"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:listvenitization
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "listvenitization"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:phyllic-qsp
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "phyllic (QSP)"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:potassic
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "potassic"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:propylitic
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "propylitic"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:pyritic
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "pyritic"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:rodingitization
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "rodingitization"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:sericitic
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sericitic"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:serpentinization
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "serpentinization"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:silicification
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "silicification"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:skarn
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "skarn"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:skarn-magnesian
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "skarn - magnesian"@en ;
+    skos:broader :skarn ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:skarn-prograde-stage
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "skarn - prograde stage"@en ;
+    skos:broader :skarn ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:skarn-retrograde-stage
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "skarn - retrograde stage"@en ;
+    skos:broader :skarn ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:tourmalinization
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "tourmalinization"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
+
+:zeolitic
+    a skos:Concept ;
+    skos:definition "Not given"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "zeolitic"@en ;
+    dcterms:provenance "From WAROX"@en ;
+.
